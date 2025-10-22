@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DMA固件 - 专业固件解决方案</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="./photo_2025-04-14_17-21-12.jpg" alt="DMA固件" class="logo">
+                <span class="logo-text">DMA固件</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">首页</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#features" class="nav-link">产品特性</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#videos" class="nav-link">视频展示</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">联系我们</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 首页部分 -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">专业的DMA固件解决方案</h1>
+                <p class="hero-description">
+                    我们提供高性能、稳定可靠的DMA固件，为您的设备提供卓越的数据传输性能
+                    和系统稳定性。
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="scrollToSection('features')">了解详情</button>
+                    <button class="btn btn-secondary" onclick="scrollToSection('videos')">观看演示</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="./photo_2025-04-14_17-21-12.jpg" alt="DMA固件技术" class="hero-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- 产品特性部分 -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">产品特性</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🚀</div>
+                    <h3 class="feature-title">高性能传输</h3>
+                    <p class="feature-description">
+                        优化的DMA传输算法，提供高速数据传输，
+                        显著提升设备性能。
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🛡️</div>
+                    <h3 class="feature-title">稳定可靠</h3>
+                    <p class="feature-description">
+                        经过严格测试的固件代码，确保在各种环境下
+                        的稳定运行。
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3 class="feature-title">低功耗设计</h3>
+                    <p class="feature-description">
+                        智能功耗管理，在保证性能的同时降低能耗，
+                        延长设备续航。
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 视频展示部分 -->
+    <section id="videos" class="videos">
+        <div class="container">
+            <h2 class="section-title">视频展示</h2>
+            <div class="videos-grid">
+                <div class="video-card">
+                    <div class="video-wrapper">
+                        <video controls class="video-player">
+                            <source src="./video.mp4" type="video/mp4">
+                            您的浏览器不支持视频播放。
+                        </video>
+                    </div>
+                    <h3 class="video-title">DMA固件性能演示</h3>
+                    <p class="video-description">
+                        展示DMA固件在实际应用中的高性能表现
+                    </p>
+                </div>
+                <div class="video-card">
+                    <div class="video-wrapper">
+                        <video controls class="video-player">
+                            <source src="./video2.mp4" type="video/mp4">
+                            您的浏览器不支持视频播放。
+                        </video>
+                    </div>
+                    <h3 class="video-title">集成与部署指南</h3>
+                    <p class="video-description">
+                        详细的集成步骤和部署说明
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 价格和售后政策部分 -->
+    <section id="pricing" class="pricing-section">
+        <div class="container">
+            <h2 class="section-title">价格与售后政策</h2>
+            <p class="pricing-description">透明定价，完善售后，让您使用无忧</p>
+            
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>DMA固件套餐</h3>
+                        <div class="price">¥600</div>
+                        <div class="duration">2个月使用时间</div>
+                    </div>
+                    
+                    <div class="pricing-features">
+                        <div class="feature-item">
+                            <span class="feature-icon">✓</span>
+                            <span>刷入后14天内因固件问题拉闸无法使用可退款</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">✓</span>
+                            <span>提供1个月质保服务，免费修复固件相关问题</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">✓</span>
+                            <span>7x24小时技术支持，可远程协助解决问题</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">✓</span>
+                            <span>固件前置，双机无盘（无序需提前告知）</span>
+                        </div>
+                    </div>
+                    
+                    <div class="pricing-notice">
+                        <div class="notice-item">
+                            <span class="notice-icon">⚠</span>
+                            <span>非固件原因，不适用退换政策</span>
+                        </div>
+                        <div class="notice-item">
+                            <span class="notice-icon">⚠</span>
+                            <span>APEX、港瓦设备不保证可通过屏蔽检测</span>
+                        </div>
+                        <div class="notice-item">
+                            <span class="notice-icon">⚠</span>
+                            <span>带WiFi网卡设备试用前需在BIOS中关闭WiFi</span>
+                        </div>
+                    </div>
+                    
+                    <div class="purchase-options">
+                            <button class="pricing-button qq-group-btn" onclick="joinQQGroup()">
+                                <span class="btn-icon">👥</span>
+                                加QQ群咨询
+                            </button>
+                            <button class="pricing-button xianyu-btn" onclick="openXianyuShop()">
+                                <span class="btn-icon">🛒</span>
+                                闲鱼店铺购买
+                            </button>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系我们部分 -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">联系我们</h2>
+            <p class="contact-description">有任何问题或需要技术支持，请通过以下方式联系我们</p>
+            <div class="contact-content">
+                <div class="contact-grid">
+                    <div class="contact-item">
+                        <a href="https://qm.qq.com/q/123456789" target="_blank" class="contact-link">
+                            <img src="./OIP-C.jpg" alt="QQ群" class="contact-icon-img">
+                            <div class="contact-text">
+                                <h3>QQ群</h3>
+                                <p>加入技术交流群</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="contact-item">
+                        <a href="https://m.tb.cn/h.g12345678" target="_blank" class="contact-link">
+                            <img src="./OIP-C.webp" alt="闲鱼店铺" class="contact-icon-img">
+                            <div class="contact-text">
+                                <h3>闲鱼店铺</h3>
+                                <p>官方产品购买</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="./photo_2025-04-14_17-21-12.jpg" alt="DMA固件" class="footer-logo-img">
+                    <span class="footer-logo-text">DMA固件</span>
+                </div>
+                <div class="footer-links">
+                    <a href="#home" class="footer-link">首页</a>
+                    <a href="#features" class="footer-link">产品特性</a>
+                    <a href="#videos" class="footer-link">视频展示</a>
+                    <a href="#contact" class="footer-link">联系我们</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 DMA固件. 保留所有权利.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
