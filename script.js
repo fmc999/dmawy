@@ -39,12 +39,12 @@ function scrollToSection(sectionId) {
 
 // 加入QQ群
 function joinQQGroup() {
-    window.open('https://qm.qq.com/q/123456789', '_blank');
+    window.open('https://qun.qq.com/universal-share/share?ac=1&authKey=PHjgW5iYGlkE0wAVU0XT%2FNKK6KcGTOTJaNopMuRLSxiqjuMAFeV%2FtBq9GGN0SNKR&busi_data=eyJncm91cENvZGUiOiI4NjgwOTcyNzgiLCJ0b2tlbiI6ImN6NFRWSFVkNGxzV3QxUXJWd0pLL09SbE15cTRjM0pVTExuVFVaeXdhWmZBbDYzV1NQb2k4SHhha2dEWVlTekYiLCJ1aW4iOiIyMTQ2MjYxODM5In0%3D&data=KCCUObnEYrZrpKjdEFmIyFkP4cySWQKXhzo3beNhBBoP76RzQZ93keGRV2D7525CDslDWfXKgHlMiZM_ff7TrQ&svctype=4&tempid=h5_group_info', '_blank');
 }
 
 // 打开闲鱼店铺
 function openXianyuShop() {
-    window.open('https://m.tb.cn/h.g12345678', '_blank');
+    window.open('https://m.tb.cn/h.SQy0VDp?tk=BZJRfdvofUb', '_blank');
 }
 
 
@@ -267,4 +267,18 @@ window.addEventListener('load', function() {
     // 记录页面加载时间
     const loadTime = performance.timing.loadEventEnd - performance.timing.navigationStart;
     console.log(`页面加载完成，耗时: ${loadTime}ms`);
+});
+
+// 自动更新版权年份
+function updateCopyrightYear() {
+    const currentYear = new Date().getFullYear();
+    const yearElement = document.getElementById('current-year');
+    if (yearElement) {
+        yearElement.textContent = currentYear;
+    }
+}
+
+// 页面加载完成后更新年份
+document.addEventListener('DOMContentLoaded', function() {
+    updateCopyrightYear();
 });
