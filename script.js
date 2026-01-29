@@ -44,7 +44,7 @@ function joinQQGroup() {
 
 // 打开闲鱼店铺
 function openXianyuShop() {
-    window.open('https://m.tb.cn/h.SQy0VDp?tk=BZJRfdvofUb', '_blank');
+    window.open('https://m.tb.cn/h.7JTkdPK?tk=d8qpU7ZOy7z', '_blank');
 }
 
 
